@@ -46,10 +46,19 @@
                 <form action="" method="post" novalidate>
                     <div class="campo">
                         <select name="tipoTransacao" id="tipoTransacao" class="campo-input" required>
-                            <option value="">Selecione o tipo de transação</option>
-                            <option value="Depósito">Depósito</option>
-                            <option value="Transferência">Transferência</option>
-                            <option value="Pagamento de Boleto">Pagamento de Boleto</option>
+                            <option value="">Selecione o tipo de transação</option> 
+                            <option  
+                                label="Depósito" 
+                                value="deposito">
+                                Depósito</option>
+                            <option 
+                                label="Transferência" 
+                                value="transferencia">
+                                Transferência</option>
+                            <option 
+                                label="Pagamento de Boleto" 
+                                value="boleto">
+                                Pagamento de Boleto</option>
                         </select>
                     </div>
                     <div class="campo">
@@ -110,5 +119,6 @@
             </div>
         </aside>
     </main>
-</body>
+    <script type="module" src="js/app.js"></script>
+    </body>
 </html>
